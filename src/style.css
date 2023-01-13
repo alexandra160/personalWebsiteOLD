@@ -1,6 +1,36 @@
 *{
     background-color: #170034;
 }
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+  
+  .fade-in.appear {
+    opacity: 1;
+  }
+  
+  .from-left {
+    transform: translateX(-50%);
+    transition: opacity 1s ease-in, transform 1s ease-in;
+  }
+  
+  .from-right {
+    transform: translateX(50%);
+    transition: transform 1s ease-in, opacity 1s ease-in;
+  }
+  
+  .from-bottom {
+    transform: translateY(50%);
+    transition: transform 1s ease-in, opacity 1s ease-in;
+  }
+  
+  .from-bottom.appear,
+  .from-right.appear,
+  .from-left.appear {
+    transform: translateX(0);
+    opacity: 1;
+  }
 #navigationBar{
     display: flex;
     position: sticky; 
@@ -36,6 +66,17 @@
     font-size: 90px;
     margin-left: 6vw;
     margin-top: 5vh;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 #connectBtn{
     background-color: #F90890;
@@ -75,6 +116,10 @@
     padding: 13px;
     
 }
+#linkStyle{
+    color: #F90890;
+    text-decoration: none;
+}
 
 #contactIcons li{
     font-size: xx-large;   
@@ -84,6 +129,7 @@
     margin-top: 64vh;
     margin-left: 6vw;
     border-radius: 20px;
+   
 }
 #factsIntro{
     color: #F90890;
@@ -102,7 +148,9 @@
     text-decoration: underline;
     font-style: normal;
     margin-left: 45vw;
-
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 }
 #text{
@@ -110,6 +158,9 @@
     word-wrap: break-word;
     margin-left: 45vw;
     margin-top: -40vh;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 #descText{
     color: #F90890;
@@ -134,7 +185,9 @@
 
 /*FIRST SKILL*/
 
-
+#skill1{
+    margin-top: -10vh;
+}
 #design{
     height: 12vh;
     width: 5vw;
@@ -188,6 +241,10 @@
     position: absolute;
     margin-top: 5vh;
     margin-left: 11vw;
+    font-family: ofelia-display, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
 }
 
 
@@ -201,6 +258,7 @@
     margin-top: -9vh;
     position: absolute;
     background-image: url("./images/code.png");
+    
 }
 .vl2{
     height: 60px;
@@ -247,6 +305,9 @@
     position: absolute;
     margin-top: 0vh;
     margin-left: 44vw;
+    font-family: ofelia-display, sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 /*THIRD SKILL*/
@@ -304,6 +365,9 @@
     position: absolute;
     margin-top: 0vh;
     margin-left: 77vw;
+    font-family: ofelia-display, sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 #projects{
@@ -412,6 +476,9 @@
     margin-top: 66vh;
     z-index: 2;
     position: absolute;
+    border-radius: 100%;
+    border-radius: 2px;
+    border-color:#F90890;
 }
 #projectTitle2{
     color: #F90890;

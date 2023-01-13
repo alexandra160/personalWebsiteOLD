@@ -10,9 +10,6 @@
 
     <script src="https://kit.fontawesome.com/fb8ad06979.js" crossorigin="anonymous"></script>
 
-
-    <!-- <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script> -->
     
     <title>Home</title>
 </head>
@@ -24,7 +21,7 @@
                 <li><a href="#home" class="navItem home">Home</a></li>
                 <li><a href="#about" class="navItem">About Me</a></li>
                 <li><a href="#projects" class="navItem">Projects</a></li>
-                <li><a href="" class="navItem">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/alexandra-maftei-75444019b/" class="navItem">Contact</a></li>
                 
              </ul>
 
@@ -39,24 +36,22 @@
     </p>
 </section>
 
-    <button id="connectBtn"> <a href="/alexandra_maftei_cv-2.pdf" target = "_blank">View my CV</a></button>
+<a href="/alexandra_maftei_cv-2.pdf" style="text-decoration: none; color: #F90890" target = "_blank"><button id="connectBtn"> View my CV</button></a>
 
-    <div id="colour-pic">
+    <div id="colour-pic" class="fade-in from-bottom slide-in">
         <!--<img id="colour-pic" src="images/colours.jpg" alt="">-->
     </div>
 
     <div id="icons">
         <ol id="contactIcons">
-            <a href ="https://www.linkedin.com/in/alexandra-maftei-75444019b/" target = "_blank"><li><i class="fa-brands fa-linkedin"></i></li></a>
+            <a href ="https://www.linkedin.com/in/alexandra-maftei-75444019b/" id ="linkStyle" target = "_blank"><li><i class="fa-brands fa-linkedin"></i></li></a>
             <li><i class="fa-brands fa-instagram"></i></li>
-            <li><i class="fa-brands fa-gitlab"></i></li>
+            <a href ="https://github.com/alexandra160" id ="linkStyle" target = "_blank"><li><i class="fa-brands fa-gitlab"></i></li></a>
         </ol>
     </div>  
 
-<section id="about">
-    <div id="me-pic">
-        <!-- <img id="me-pic" src="images/me.jpg" alt="">-->
-    </div>
+<section id="about" >
+    <div id="me-pic"></div>
 
     <div id="text"></div>
     
@@ -67,15 +62,15 @@
         <p>My skills:</p>
     </div>
 
-    <div class="container">
-            <div id="skill1" class="col-sm">
-                <div id="first">01</div>
+    <div class="container" >
+            <div id="skill1" class="col-sm" >
+                <div id="first" >01</div>
                 <div class="vl1"></div>
                 <div id="line1"></div>
                 <div id="design"></div>
                 <p id="designText">UI&UX Design</p>
                 <div id="designDesc">
-                    <p>lalalaalalalalalalalallalalalalalalalalalmsoscsjfjedwowfjeiejgnvdkdkdkdkdkdkddkdkkdkdkdkdkdkdkkdkddkdk</p>
+                    <p>I am skilled in conducting in depth user research and creating user interfaces that are accesible and easy-to-use, by everyone.</p>
                 </div>
             </div>
 
@@ -86,7 +81,7 @@
                <div id="dev"></div>
                <p id="devText">Development</p>
                <div id="devDesc">
-                    <p>lalalaalalalalalalalallalalalalalalalalalmsoscsjfjedwowfjeiejgnvdkdkdkdkdkdkddkdkkdkdkdkdkdkdkkdkddkdk</p>
+                    <p>I have advanced skills in HTML&CSS, JavaScript with NodeJS & Express, as well as some basic knowledge with React, MongoDB, C++ and C#.</p>
                </div>
 
            </div>
@@ -98,29 +93,24 @@
                 <div id="app"></div>
                 <p id="appText">Container Applications</p>
                 <div id="appDesc">
-                    <p>lalalaalalalalalalalallalalalalalalalalalmsoscsjfjedwowfjeiejgnvdkdkdkdkdkdkddkdkkdkdkdkdkdkdkkdkddkdk</p>
+                    <p>I have recently started to learn about Container application Development, having completed beginner courses in Docker and Kubernetes. Next semester my specialisation will be Cyber Security, and I plan on expanding my knowledge in computer networks and infrastructure.</p>
                 </div>
           </div>
     </div>
 </section>
 
 
-    <div>
+    <div class="fade-in from-bottom slide-in">
         <p id="projects">Projects</p>
         <p id="projectsDesc">A collection of my work in the past years - done collaboratively or separately.</p>
     </div>
 
 
-    <div id="projectContainer">
-          <div id="project1">
+    <div id="projectContainer" class="fade-in from-bottom slide-in">
+          <div id="project1" >
 
             <div id="projectContainer1"></div>
-            <svg id="projectImg1" xmlns="http://www.w3.org/2000/svg" width="230.311" height="252.938" viewBox="0 0 196.311 218.938">
-                <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(0.478 0.535)">
-                  <path id="Path_1" data-name="Path 1" d="M944.493,2023.118c49.4-26.785,92.783-4.275,92.783-4.275s63.195,36.454,64.3,83.126-44.356,140.718-88.6,123.913-123.923-42.108-103.4-123.913S944.493,2023.118,944.493,2023.118Z" transform="translate(-906.265 -2009.995)" fill="none" stroke="#f90890" stroke-width="1"/>
-                </g>
-              </svg>
-
+            <div id="projectImg1"></div>
               <p id="projectTitle1">ConnectYall application</p>
               <p id="extra1">Development, Design, UI/UX</p>
               <a><p id="view1">View Project</p></a>
@@ -132,11 +122,7 @@
         <div id="project2">
 
             <div  id="projectContainer2"></div>
-            <svg id="projectImg2" xmlns="http://www.w3.org/2000/svg" width="230.311" height="252.938" viewBox="0 0 196.311 218.938">
-                <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(0.478 0.535)">
-                  <path id="Path_1" data-name="Path 1" d="M944.493,2023.118c49.4-26.785,92.783-4.275,92.783-4.275s63.195,36.454,64.3,83.126-44.356,140.718-88.6,123.913-123.923-42.108-103.4-123.913S944.493,2023.118,944.493,2023.118Z" transform="translate(-906.265 -2009.995)" fill="none" stroke="#f90890" stroke-width="1"/>
-                </g>
-              </svg>
+            <div id="projectImg2"></div>
 
               <p id="projectTitle2">Maaike Girardin - Artist Website</p>
               <p id="extra2">Development, Design, UI/UX</p>
@@ -148,11 +134,7 @@
         <div id="project3">
 
             <div  id="projectContainer3"></div>
-            <svg  id="projectImg3" xmlns="http://www.w3.org/2000/svg"width="230.311" height="252.938" viewBox="0 0 196.311 218.938">
-                <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(0.478 0.535)">
-                  <path id="Path_1" data-name="Path 1" d="M944.493,2023.118c49.4-26.785,92.783-4.275,92.783-4.275s63.195,36.454,64.3,83.126-44.356,140.718-88.6,123.913-123.923-42.108-103.4-123.913S944.493,2023.118,944.493,2023.118Z" transform="translate(-906.265 -2009.995)" fill="none" stroke="#f90890" stroke-width="1"/>
-                </g>
-              </svg>
+            <div id="projectImg3"></div>
 
               <p id="projectTitle3">Christmas 'To do' List</p>
               <p id="extra3">Development</p>
@@ -162,6 +144,6 @@
         </div>
 
     </div> 
-
+<script src="effect.js"></script>
 </body>
 </html>
