@@ -1,0 +1,521 @@
+*{
+    background-color: #170034;
+}
+#navigationBar{
+    display: flex;
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+    margin-left: 5vw;
+    z-index: 5;
+}
+#nav-list{
+    width: 50%;
+    display: flex;
+}
+#nav-list li{
+    display: inline;
+    list-style: none;
+    padding: 26px 30px;
+}
+#nav-list li a {
+    text-decoration: none;
+    color: #F90890;
+    font-family: ofelia-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:x-large;
+}
+#enterline{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 90px;
+    margin-left: 6vw;
+    margin-top: 5vh;
+}
+#connectBtn{
+    background-color: #F90890;
+    color: #170034;
+    position: relative§;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 130px;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    outline: none;
+    margin-left: 6vw;
+    margin-top: 10vh;
+    text-decoration: none;
+}
+
+#colour-pic{
+    margin-left: 45vw;
+    margin-top: -34vh;
+    position: absolute;
+
+}
+#icons{
+    position: relative; 
+    margin-left: 91vw;
+    margin-top: -70vh;
+    text-decoration: none;
+    color: #F90890;
+
+}
+#contactIcons{
+    color: #F90890;
+    text-decoration: none;
+    list-style: none;
+    padding: 13px;
+    
+}
+
+#contactIcons li{
+    font-size: xx-large;   
+}
+
+#me-pic{
+    margin-top: 64vh;
+    margin-left: 6vw;
+    border-radius: 20px;
+}
+#factsIntro{
+    color: #F90890;
+    word-wrap: break-word;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 500;
+    font-style:  italic;
+    margin-left: 45vw;
+    
+}
+#factsText{
+    color: #F90890;
+    word-wrap: break-word;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    font-style: normal;
+    margin-left: 45vw;
+
+
+}
+#text{
+    width: 700px;
+    word-wrap: break-word;
+    margin-left: 45vw;
+    margin-top: -40vh;
+}
+#descText{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#skillsText{
+    color:#F90890;
+    position: absolute;
+    font-family: ofelia-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30vh;
+    margin-left: 6vw;
+    font-size: x-large;
+}
+
+
+
+
+/*FIRST SKILL*/
+
+
+#design{
+    height: 12vh;
+    width: 5vw;
+    margin-left: 11vw;
+    margin-top: -8vh;
+    position: absolute;
+}
+.vl1{
+    height: 60px;
+    width: 2px;
+    background-color: #F90890;
+    margin-top: 57vh;
+    margin-left: 9vw;
+    position: relative;
+    
+
+}
+#line1{
+    height: 2px;
+    width: 60px;
+    background-color: #F90890;
+    margin-top: -2vh;
+    margin-left: 6vw;
+    position: relative;
+
+}
+#first{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    margin-left: 6vw;
+    font-size: xx-large;
+}
+#designText{
+    color: #F90890;
+    font-family: ofelia-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    margin-left: 17vw;
+    margin-top: -2vh;
+    position: absolute;
+}
+#designDesc{
+    word-wrap: break-word;
+    height: 50px;
+    width: 200px;
+    color: #F90890;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 11vw;
+}
+
+
+
+/*SECOND SKILL*/
+
+#dev{
+    height: 12vh;
+    width: 5vw;
+    margin-left: 44vw;
+    margin-top: -9vh;
+    position: absolute;
+    background-image: url("./images/code.png");
+}
+.vl2{
+    height: 60px;
+    width: 2px;
+    background-color: #F90890;
+    margin-top: -7vh;
+    margin-left: 42vw;
+    position: relative;
+
+}
+#line2{
+    height: 2px;
+    width: 60px;
+    background-color: #F90890;
+    margin-top: -2vh;
+    margin-left: 39vw;
+    position: relative;
+
+}
+#second{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    margin-left: 39vw;
+    font-size: xx-large;
+}
+#devText{
+    color: #F90890;
+    font-family: ofelia-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    margin-left: 50vw;
+    margin-top: -2vh;
+    position: relative;
+}
+#devDesc{
+    word-wrap: break-word;
+    height: 50px;
+    width: 200px;
+    color: #F90890;
+    position: absolute;
+    margin-top: 0vh;
+    margin-left: 44vw;
+}
+
+/*THIRD SKILL*/
+
+#app{
+    height: 12vh;
+    width: 5vw;
+    margin-left: 77vw;
+    margin-top: -9vh;
+    position: absolute;
+}
+.vl3{
+    height: 60px;
+    width: 2px;
+    background-color: #F90890;
+    margin-top: -11vh;
+    margin-left: 75vw;
+    position: relative;
+
+}
+#line3{
+    height: 2px;
+    width: 60px;
+    background-color: #F90890;
+    margin-top: -2vh;
+    margin-left: 72vw;
+    position: relative;
+
+}
+#third{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    margin-left: 72vw;
+    font-size: xx-large;
+}
+#appText{
+    color: #F90890;
+    font-family: ofelia-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    margin-left: 83vw;
+    margin-top: -2vh;
+    position: relative;
+}
+
+#appDesc{
+    word-wrap: break-word;
+    height: 50px;
+    width: 200px;
+    color: #F90890;
+    position: absolute;
+    margin-top: 0vh;
+    margin-left: 77vw;
+}
+
+#projects{
+    font-family: ofelia-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #F90890;
+    font-size: 100px;
+    margin-top: 40vh;
+    margin-left: 6vw;
+    position: relative;
+}
+#projectsDesc{
+    color: #F90890;
+    font-family: ofelia-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    margin-top: -10vh;
+    margin-left: 6vw;
+    position: relative;
+}
+
+
+/*PROJECT CONTAINER 1*/
+
+#projectContainer1{
+    height: 350px;
+    width: 600px;
+    border-color: #F90890; 
+    border-style: solid;
+    background-color:#170034;
+    border-width: 2px;
+    border-radius: 20px;
+    margin-left: 55vw;
+    position: absolute; 
+    z-index: 2;
+}
+
+#projectImg1{
+    margin-left: 57vw;
+    margin-top: 10vh;
+    z-index: 2;
+    position: absolute;
+}
+#projectTitle1{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: larger;
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: 12vh;
+    z-index: 3;
+
+}
+#extra1{
+    color: #A0056C;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: 17vh;
+    z-index: 3;
+}
+#view1{
+    color: #A0056D;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: 30vh;
+    z-index: 3;
+}
+#about1{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    position: absolute;
+    margin-left: 81vw;
+    margin-top: 45vh;
+    z-index: 3;
+}
+
+/*PROJECT CONTAINER 2*/
+
+#projectContainer2{
+    height: 350px;
+    width: 600px;
+    border-color: #F90890; 
+    border-style: solid;
+    background-color:#170034;
+    border-width: 2px;
+    border-radius: 20px;
+    margin-top: 56vh;
+    margin-left: 55vw;
+    position: absolute; 
+}
+
+#projectImg2{
+    margin-left: 57vw;
+    margin-top: 66vh;
+    z-index: 2;
+    position: absolute;
+}
+#projectTitle2{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: larger;
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: 70vh;
+    z-index: 3;
+
+}
+#extra2{
+    color: #A0056C;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: 75vh;
+    z-index: 3;
+}
+#view2{
+    color: #A0056D;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: 88vh;
+    z-index: 3;
+}
+#about2{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    position: absolute;
+    margin-left: 81vw;
+    margin-top: 101vh;
+    z-index: 3;
+}
+
+/*PROJECT CONTAINER 3*/
+
+#projectContainer3{
+    height: 350px;
+    width: 600px;
+    border-color: #F90890; 
+    border-style: solid;
+    background-color:#170034;
+    border-width: 2px;
+    border-radius: 20px;
+    margin-top: 113vh;
+    margin-left: 55vw;
+    position: absolute; 
+}
+
+#projectImg3{
+    margin-left: 57vw;
+    margin-top: 123vh;
+    z-index: 2;
+    position: absolute;
+}
+#projectTitle3{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: larger;
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: 128vh;
+    z-index: 3;
+
+}
+#extra3{
+    color: #A0056C;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: 133vh;
+    z-index: 3;
+}
+#view3{
+    color: #A0056D;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: 146vh;
+    z-index: 3;
+}
+#about3{
+    color: #F90890;
+    font-family: ofelia-display,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    position: absolute;
+    margin-left: 86vw;
+    margin-top: 158vh;
+    z-index: 3;
+}
